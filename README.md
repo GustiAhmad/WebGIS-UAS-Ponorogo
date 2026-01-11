@@ -15,4 +15,4 @@ Aplikasi WebGIS ini dibangun menggunakan **OpenLayers** untuk memvisualisasikan 
 
 ## Link Demo Aplikasi
 Silakan akses WebGIS melalui link berikut:
-[KLIK DI SINI UNTUK MEMBUKA PETA]([https://gustiahmad.github.io/WebGIS-UAS-Ponorogo/])
+[KLIK DI SINI UNTUK MEMBUKA PETA](https://gustiahmad.github.io/WebGIS-UAS-Ponorogo/)
