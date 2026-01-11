@@ -113,12 +113,33 @@
 
         // --- 3. LOAD LAYER (Desa, Buffer, Masjid) ---
         
+// --- LAYER WILAYAH DESA (Dengan Label Nama Desa) ---
         const layerDesa = new ol.layer.Vector({
-            source: new ol.source.Vector({ url: 'data/Desa_Diss.json', format: new ol.format.GeoJSON() }),
-            style: new ol.style.Style({
-                stroke: new ol.style.Stroke({ color: 'blue', width: 1 }),
-                fill: new ol.style.Fill({ color: 'rgba(0, 0, 255, 0.05)' }) 
-            })
+            source: new ol.source.Vector({
+                url: 'data/Desa_Diss.json',
+                format: new ol.format.GeoJSON()
+            }),
+            style: function(feature) {
+                return new ol.style.Style({
+                    // Style Garis dan Isi Poligon
+                    stroke: new ol.style.Stroke({ 
+                        color: 'rgba(0, 0, 255, 0.5)', 
+                        width: 1 
+                    }),
+                    fill: new ol.style.Fill({ 
+                        color: 'rgba(0, 0, 255, 0.05)' 
+                    }),
+                    // Style Teks Label Nama Desa
+                    text: new ol.style.Text({
+                        text: feature.get('NAMOBJ'), // Mengambil kolom "Nama Desa" dari data UTS 
+                        font: 'italic 10px Calibri,sans-serif',
+                        fill: new ol.style.Fill({ color: '#555' }), // Warna abu-abu tua agar tidak terlalu mencolok
+                        stroke: new ol.style.Stroke({ color: '#fff', width: 2 }),
+                        overflow: true, // Memastikan teks muncul meskipun poligon kecil
+                        placement: 'point' // Menaruh teks di titik tengah (sentroid) desa
+                    })
+                });
+            }
         });
 
         const layerBuffer = new ol.layer.Vector({
@@ -196,4 +217,5 @@
 
     </script>
 </body>
+
 </html>
