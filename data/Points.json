@@ -1,0 +1,246 @@
+{
+  "hasZ" : true,
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.46112890000006,
+          -7.8713244999999574,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 1,
+        "Name" : "Masjid Agung R.M.A.A Tjokronegoro",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.48295410000009,
+          -7.9312061999999628,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 2,
+        "Name" : "Masjid Jami' Tegalsari",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.48290090000006,
+          -7.9311889999999607,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 3,
+        "Name" : "Masjid Agung Tegalsari",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.49801940000009,
+          -7.9282277999999451,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 4,
+        "Name" : "Masjid Jami' PMDG",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.49782460000006,
+          -7.9219172999999614,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 5,
+        "Name" : "Masjid Al-Ikhtiar",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.45726310000003,
+          -7.9058617999999683,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 6,
+        "Name" : "Masjid Jami' Gontor 2",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.46977710000004,
+          -7.8690498999999363,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 7,
+        "Name" : "Masjid Darul Hikmah",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.49039860000005,
+          -7.9028050999999664,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 8,
+        "Name" : "Masjid Jami' UNIDA Gontor",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.46906050000007,
+          -7.8825268999999594,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 9,
+        "Name" : "Masjid Jami' Pilang Rejo",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          111.49026630000009,
+          -7.8924111999999695,
+          0
+        ]
+      },
+      "properties" : {
+        "OID" : 10,
+        "Name" : "Masjid Jannatul Firdaus",
+        "FolderPath" : "Untitled layer",
+        "SymbolID" : 0,
+        "AltMode" : -1,
+        "Base" : 0,
+        "Snippet" : "",
+        "PopupInfo" : "",
+        "HasLabel" : -1,
+        "LabelID" : 0
+      }
+    }
+  ]
+}
